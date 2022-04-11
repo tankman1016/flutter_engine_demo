@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:lintest2/channel_init.dart';
 
 void main() {
-  print("11111111111111");
   runApp(const MyApp());
 }
 

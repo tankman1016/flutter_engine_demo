@@ -6,7 +6,7 @@
 
     <Button
         android:id="@+id/btn_play"
-        android:text="我是播放页"
+        android:text="我是原生播放页aty"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 

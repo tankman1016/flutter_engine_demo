@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		142A4D2F27EAC8D1008E3F57 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 142A4D2E27EAC8D1008E3F57 /* FirstViewController.m */; };
 		142A4D3227EAD215008E3F57 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 142A4D3127EAD215008E3F57 /* SecondViewController.m */; };
+		148C17B22803E39500F25665 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 148C17B12803E39500F25665 /* MainViewController.m */; };
 		1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */; };
 		1499701027ED74D900644543 /* NewLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1499700F27ED74D900644543 /* NewLaunchScreen.storyboard */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
@@ -37,6 +38,8 @@
 		142A4D2E27EAC8D1008E3F57 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		142A4D3027EAD215008E3F57 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		142A4D3127EAD215008E3F57 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		148C17B02803E39500F25665 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		148C17B12803E39500F25665 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		1498D2321E8E86230040F4C2 /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
 		1498D2331E8E89220040F4C2 /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		1499700F27ED74D900644543 /* NewLaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewLaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				142A4D3027EAD215008E3F57 /* SecondViewController.h */,
 				142A4D3127EAD215008E3F57 /* SecondViewController.m */,
 				1499700F27ED74D900644543 /* NewLaunchScreen.storyboard */,
+				148C17B02803E39500F25665 /* MainViewController.h */,
+				148C17B12803E39500F25665 /* MainViewController.m */,
 			);
 			path = Runner;
 			sourceTree = "<group>";
@@ -229,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				142A4D3227EAD215008E3F57 /* SecondViewController.m in Sources */,
+				148C17B22803E39500F25665 /* MainViewController.m in Sources */,
 				978B8F6F1D3862AE00F588F7 /* AppDelegate.m in Sources */,
 				97C146F31CF9000F007C117D /* main.m in Sources */,
 				1498D2341E8E89220040F4C2 /* GeneratedPluginRegistrant.m in Sources */,

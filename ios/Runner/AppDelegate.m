@@ -3,6 +3,7 @@
 
 #import "FirstViewController.h"
 #import "SecondViewController.h"
+#import "MainViewController.h"
 
 
 
@@ -42,9 +43,9 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     }];
     
 
-    //初始化入口改成这个了
-    FlutterViewController *vc = [[FlutterViewController alloc] initWithEngine:self.flutterEngine nibName:@"main-flutter" bundle:nil];
-    
+    //初始化入口改成这个了,解决引擎与mainVC重新绑定的问题
+    MainViewController *vc = [[MainViewController alloc] initWithEngine:self.flutterEngine nibName:@"main-flutter" bundle:nil];
+    //解决App打开白屏问题
     [vc loadDefaultSplashScreenView];
     
     self.navigationController = [[UINavigationController alloc] initWithRootViewController:vc];

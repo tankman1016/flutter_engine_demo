@@ -51,12 +51,6 @@
     AppDelegate *myDelegate = (AppDelegate*)[[UIApplication sharedApplication]delegate];
 
     SecondViewController *secondController =[[SecondViewController alloc] initWithEngine:myDelegate.flutterEngine nibName:nil bundle:nil];
-    
-//    SecondViewController *secondController =[SecondViewController alloc];
-//
-//    myDelegate.flutterEngine.viewController=nil;
-//    myDelegate.flutterEngine.viewController=(FlutterViewController*)secondController;
-    
     [self.navigationController pushViewController:secondController animated:YES];
 }
 

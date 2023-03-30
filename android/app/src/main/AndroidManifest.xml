@@ -3,7 +3,6 @@
    <application
 
         android:label="lintest2"
-        android:name=".AppInit"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

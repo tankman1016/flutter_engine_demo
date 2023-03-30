@@ -21,7 +21,7 @@ public class FirstAty extends Activity {
             @Override
             public void onClick(View v) {
                 Log.v(NATIVE_TAG, "去第二页");
-                startActivity(SecondAty.withCachedEngine(MainActivity.Engine_ID).build(FirstAty.this));
+                startActivity(SecondAty.withCachedEngine().build(FirstAty.this));
             }
         });
     }

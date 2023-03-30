@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lintest2/b.dart';
 import 'package:lintest2/channel_init.dart';
 
 void main() {
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'FlutterEngine研究'),
+      home: const MyHomePage(title: 'Flutter混合路由站研究'),
     );
   }
 }
@@ -53,14 +54,22 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Container(
-              width: MediaQuery.of(context).size.width,
-              height: 30,
-              color: Colors.red,
-              child: _buildBoy(),
+
+            GestureDetector(
+              onTap: (){
+                Navigator.of(context).push(MaterialPageRoute(builder: (_){
+                  return const BPage(title: "222222");
+                }));
+              },
+              child: Container(
+                width: 100,
+                height: 100,
+                color: Colors.redAccent,
+              ),
             ),
+
             const Text(
-              'You have pushed the button this many times:',
+              '我是Flutter1页面',
             ),
             Text(
               '$_counter',
@@ -76,7 +85,4 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  Widget _buildBoy() {
-    return Text("data");
-  }
 }

@@ -6,10 +6,11 @@
 //
 
 #import <Flutter/Flutter.h>
+#import "MyFlutterViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SecondViewController : FlutterViewController
+@interface SecondViewController : MyFlutterViewController
 
 @end
 

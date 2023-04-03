@@ -21,7 +21,6 @@ class _MyHomePageState extends State<BPage> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
   }
 

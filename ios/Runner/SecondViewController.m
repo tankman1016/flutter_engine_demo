@@ -28,11 +28,11 @@
                action:@selector(quitPage)
      forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
-
+    
 }
 
+
 -(void) quitPage{
-    NSLog(@"退出点击");
     [self.navigationController popViewControllerAnimated:YES];
 }
 

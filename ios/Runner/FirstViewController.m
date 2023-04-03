@@ -42,12 +42,10 @@
 }
 
 -(void) quitPage{
-    NSLog(@"退出点击");
     [self.navigationController popViewControllerAnimated:YES];
 }
 
 -(void)goToSecondPage{
-    NSLog(@"去第二页点击");
     AppDelegate *myDelegate = (AppDelegate*)[[UIApplication sharedApplication]delegate];
 
     SecondViewController *secondController =[[SecondViewController alloc] initWithEngine:myDelegate.flutterEngine nibName:nil bundle:nil];

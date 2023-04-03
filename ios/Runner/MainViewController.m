@@ -20,20 +20,6 @@
     // Do any additional setup after loading the view.
 }
 
--(void)viewWillAppear:(BOOL)animated{
-    
-    NSLog(@"Main viewWillAppear");
-    //当引擎绑定其他页面时，以下操作是和当前页面重新绑定
-    //绑定前需要 myDelegate.flutterEngine.viewController=nil;不然会报错
-    AppDelegate *myDelegate = (AppDelegate*)[[UIApplication sharedApplication]delegate];
-    if(myDelegate.flutterEngine.viewController!=self){
-        myDelegate.flutterEngine.viewController=nil;
-        myDelegate.flutterEngine.viewController=self;
-    }
-    
-    [super viewWillAppear:animated];
-    
-}
 
 /*
 #pragma mark - Navigation

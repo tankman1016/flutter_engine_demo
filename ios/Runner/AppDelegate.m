@@ -34,7 +34,6 @@ didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     [self.flutterMethodChannel setMethodCallHandler:^(FlutterMethodCall* call, FlutterResult result) {
 
         if ([call.method isEqualToString:@"goToFirstAty"]){
-            NSLog(@"去第一页");
             FirstViewController *firstController = [FirstViewController alloc];
             [self.navigationController pushViewController:firstController animated:YES];
             
